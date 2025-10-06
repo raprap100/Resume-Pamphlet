@@ -3,7 +3,7 @@
 
 An interactive flip-book style portfolio and résumé built with **HTML**, **CSS**, and **vanilla JavaScript**.
 
-This site showcases my background in **Web Development** and **Quality Assurance** — including skills such as Trello, JIRA, and test case design — and features my capstone project **E-Likha**.
+This site showcases my background in **Web Development**, **"Tech Support"** and **Quality Assurance** — including skills such as Trello, JIRA, and test case design — and features my capstone project **E-Likha**.
 
 > ⚠️ **Work in Progress:**  
 > Some flip/animation logic is still being refined (page navigation buttons). Expect occasional layout or animation quirks.
