@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raphael Ureta – Interactive Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="cover cover-left"></div>
+  <div class="cover cover-right"></div>
+
+  <div class="book">
+    <!-- PROFILE PAGE -->
+    <div class="book-page page-left">
+      <div class="profile-page">
+        <img src="Me.jpg" alt="Raphael Ureta">
+        <h1>Raphael Ureta</h1>
+        <h3>Web Developer</h3>
+
+        <div class="social-media">
+          <a href="https://www.facebook.com/raphaelmartinu"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="https://www.linkedin.com/in/raphael-martin-ureta-b49b40314/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <p>
+          Hi! I'm Raphael Martin G. Ureta, a BSIT graduate with hands-on IT support
+          and a passion for front-end and back-end development. I’m looking for opportunities
+          in QA or software development.
+        </p>
+
+        <div class="btn-box">
+          <a href="RaphaelUreta_CV.pdf" class="btn" download>Download CV</a>
+          <a href="#" class="btn contact-me">Contact Me</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 1 & 2 -->
+    <div class="book-page page-right turn" id="turn-1">
+      <!-- Work Experience -->
+      <div class="page-front">
+        <h1 class="title">Work Experience</h1>
+        <div class="workeduc-box">
+          <div class="workeduc-content">
+            <span class="year"><i class='bx bxs-calendar'></i>Dec 2024 – May 2025</span>
+            <h3>System Support Engineer – Novulutions Inc.</h3>
+            <p>Monitored VMs, deployed servers, handled hardware setup & implementation projects.</p>
+          </div>
+        </div>
+        <div class="workeduc-box">
+          <div class="workeduc-content">
+            <span class="year"><i class='bx bxs-calendar'></i>Feb 2024 – May 2024</span>
+            <h3>IT Help Desk Intern – DPWH</h3>
+            <p>Server room support, system troubleshooting and networking assistance.</p>
+          </div>
+        </div>
+
+        <span class="number-page">1</span>
+        <span class="nextprev-btn" data-page="turn-2">
+          <i class='bx bxs-chevron-right'></i>
+        </span>
+      </div>
+
+      <!-- Education -->
+      <div class="page-back">
+        <h1 class="title">Education</h1>
+        <div class="workeduc-box">
+          <div class="workeduc-content">
+            <span class="year"><i class='bx bxs-calendar'></i>2020 – 2024</span>
+            <h3>Adamson University</h3>
+            <h5>BS Information Technology</h5>
+            <p><i class='bx bxs-award'></i> Academic Merit Award</p>
+          </div>
+        </div>
+        <div class="workeduc-box">
+          <div class="workeduc-content">
+            <span class="year"><i class='bx bxs-calendar'></i>2018 – 2020</span>
+            <h3>AMA Computer College Biñan</h3>
+            <h5>ICT – Programming Strand</h5>
+            <p><i class='bx bxs-award'></i> Academic Excellence Award</p>
+          </div>
+        </div>
+        <span class="number-page">2</span>
+        <span class="nextprev-btn back" data-page="turn-1">
+          <i class='bx bxs-chevron-left'></i>
+        </span>
+      </div>
+    </div>
+
+    <!-- PAGE 3 & 4 -->
+    <div class="book-page page-right turn" id="turn-2">
+      <!-- My Services -->
+      <div class="page-front">
+        <h1 class="title">My Services</h1>
+        <div class="services-box">
+            
+          <div class="services-content">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <p>Responsive, SEO-friendly websites built with modern stacks.</p>
+          </div>
+          
+         <div class="services-content">
+       <i class='bx bxs-like bx-flashing-hover'></i>
+            <h3>Quality Assurance</h3>
+            <p>Manual testing, writing test cases, and tracking issues using Trello and JIRA.</p>
+          </div>
+
+          <div class="services-content">
+            <i class='bx bx-support'></i>
+            <h3>Tech Support</h3>
+            <p>Hardware & network troubleshooting with clear documentation.</p>
+          </div>
+          <div class="services-content">
+            <i class='bx bxs-paint'></i>
+            <h3>UI/UX Design</h3>
+            <p>Wireframes and prototypes in Figma or Adobe XD.</p>
+          </div>
+        </div>
+
+        <span class="number-page">3</span>
+        <span class="nextprev-btn" data-page="turn-3">
+          <i class='bx bxs-chevron-right'></i>
+        </span>
+      </div>
+
+      <!-- Skills -->
+      <div class="page-back">
+        <h1 class="title">My Skills</h1>
+        <div class="skills-box">
+          <div class="skills-content">
+            <h3>Front-End</h3>
+            <div class="content">
+              <span><i class='bx bxl-html5'></i>HTML</span>
+              <span><i class='bx bxl-css3'></i>CSS</span>
+              <span><i class='bx bxl-javascript'></i>JS</span>
+              <span><i class='bx bxl-bootstrap'></i>Bootstrap</span>
+            </div>
+          </div>
+          <div class="skills-content">
+            <h3>Back-End</h3>
+            <div class="content">
+              <span><i class='bx bxl-php'></i>PHP</span>
+              <span><img src="laravel.svg" alt="Laravel" style="width:35px">Laravel</span>
+              <span><i class='bx bxl-python'></i>Python</span>
+            </div>
+          </div>
+          <div class="skills-content">
+            <h3>Tools / UI</h3>
+            <div class="content">
+              <span><i class='bx bxl-figma'></i>Figma</span>
+              <span><i class='bx bxl-adobe'></i>Adobe XD</span>
+              <span><i class='bx bxl-adobe'></i>Photoshop</span>
+            </div>
+          </div>
+          <div class="skills-content">
+            <h3>Quality Assurance</h3>
+            <div class="content">
+              <span>Test Case Design</span>
+              <span>Bug Tracking & Reporting</span>
+              <span>Trello & JIRA</span>
+              <span>Basic API Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <span class="number-page">4</span>
+        <span class="nextprev-btn back" data-page="turn-2">
+          <i class='bx bxs-chevron-left'></i>
+        </span>
+      </div>
+    </div>
+
+    <!-- PAGE 5 & 6 -->
+    <div class="book-page page-right turn" id="turn-3">
+      <!-- Latest Project -->
+      <div class="page-front">
+        <h1 class="title">Latest Project</h1>
+        <div class="portfolio-box">
+          <div class="img-box">
+            <img src="sample.png" alt="E-Likha Screenshot">
+          </div>
+          <div class="info-box">
+            <div class="info-title">
+              <h3>E-Likha Capstone</h3>
+              <a href="#">Live Preview <i class='bx bx-link-external'></i></a>
+            </div>
+            <p><strong>Tech Used:</strong> PHP (Laravel), MySQL, Bootstrap</p>
+            <p>User-centric document tracking system with usability testing.</p>
+          </div>
+          <div class="btn-box">
+            <a href="#" class="btn">Source Code</a>
+            <a href="#" class="btn">More Projects</a>
+          </div>
+        </div>
+        <span class="number-page">5</span>
+        <span class="nextprev-btn" data-page="turn-4">
+          <i class='bx bxs-chevron-right'></i>
+        </span>
+      </div>
+
+      <!-- Contact Me -->
+      <div class="page-back">
+        <h1 class="title">Contact Me!</h1>
+        <div class="contact-box">
+          <form action="mailto:raphaelmartinu@gmail.com" method="post">
+            <input type="text" class="field" placeholder="Full Name" required>
+            <input type="email" class="field" placeholder="Email Address" required>
+            <textarea cols="30" rows="6" class="field" placeholder="Your Message"></textarea>
+            <input type="submit" class="btn" value="Send Message">
+          </form>
+        </div>
+
+        <span class="number-page">6</span>
+        <span class="nextprev-btn back" data-page="turn-3">
+          <i class='bx bxs-chevron-left'></i>
+        </span>
+        <a href="#" class="back-profile">
+          <p>Profile</p>
+          <i class='bx bxs-user'></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
