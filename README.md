@@ -1,4 +1,5 @@
 # Raphael Ureta – Interactive Resume (Work in Progress)
+- View my project: https://raprap100.github.io/Resume-Pamphlet/
 
 An interactive flip-book style portfolio and résumé built with **HTML**, **CSS**, and **vanilla JavaScript**.
 
